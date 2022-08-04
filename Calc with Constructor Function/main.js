@@ -1,3 +1,17 @@
+//Função construtora/ Constructor function -> Objetos
+//Função fábrica -> Factory function -> Objetos
+// Construtora -> Pessoa (new)
+
+// function Pessoa(nome, sobrenome) {
+//     const ID = 12345; // Atributo privado
+
+
+//     this.nome = nome; // Atributo publico
+//     this.sobrenome = sobrenome;
+// };
+
+// const p1 = new Pessoa('Gabriel', 'Veras');
+
 function Calculator() {
     this.display = document.querySelector('.display');
 

@@ -62,3 +62,40 @@ width: 400px;
 .btn-eq {
   background: #101b16;
 }
+
+
+@media screen and (max-width: 768px) {
+  
+  .container {
+      max-width: 320px;
+      margin: 40px;
+      background: #fa1414;
+      padding: 20px;
+      border-radius: 10px;
+  }
+  
+  .display {
+      font-size: 12px;
+      width: 252px;
+      text-align: right;
+      margin-left: 6px;
+      margin-bottom: 5px;
+      border: none;
+      border-bottom: 2px solid #101b16;
+      background: #fa1414;
+  }
+  
+  .calculator {
+      width: 0px
+  }
+  
+  .btn {
+      width: 25px;
+      height: 20px;
+      font-size: 15px;
+      margin-left: 29px;
+      border: none;
+      background: #fa1414;
+      cursor: pointer;
+  }
+  }
